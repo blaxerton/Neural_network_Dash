@@ -1,1 +1,18 @@
+Das Programm funktioniert nur wenn die Python version 3.13.9 ist.
 
+In MA_lvl_editor können Levels erstellt werden, hierfür muss der Variabel current_level eine wert gegeben werden um die erstellten Level zu  differenzieren.
+Wenn man einen Block platzieren will muss man B drucken und dann mit Linksklick platzieren.
+Wenn man einen Stachel platzieren will muss man S drucken und dann mit Linksklick platzieren.
+Wenn man nicht mehr plantzieren will muss man B oder S noch mal drücken.
+Um platzierte Elemente zu löschen kan man mit Rechtsklick drauffrücken.
+Um ein level zu speichern muss man W drücken.
+Um ein bereitserstelltes level zu laden muss man L drücken.
+
+In MA_Dash muss man bie der Variabel current_level das erstellte Level auswählen an dem man die Netze trainiern will.
+Mit der Variabel h_layer kann man die Anzahl verborgene Schichten bestimmen.
+Mit der Variabel h_layer_size kann man die Anzahl Neuronen pro Schicht bestimmen.
+Mit der Variabel mutation_rate kann man die Mutationschance bestimmen.
+Mit der Variabel mutations_strenthg kann man die Mutationsstärek bestimmen. 
+
+Die CSV-Dateien werden automatisch erstellt.
+Wenn man aber einen neuen Testlauf machen will, muss man den namen der CSV-Datei ändern, sonst fügt es die neuen Daten bei der Datei eines alten Tests hinzu. 
